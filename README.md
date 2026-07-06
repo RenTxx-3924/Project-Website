@@ -1,4 +1,4 @@
-# Portfolio v2
+# Project Personal Website
 
 Personal portfolio website built from scratch.
 

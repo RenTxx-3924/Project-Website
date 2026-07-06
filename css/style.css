@@ -85,49 +85,32 @@ nav {
     background: var(--card-bg);
     border: 1px solid rgba(0, 242, 255, 0.15);
     border-radius: 15px;
-    padding: 40px;
-    text-align: center;
     box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    transition: .3s;
 }
 
-.card2 {
+.card:hover {
+    border-color: var(--neon-cyan);
+    box-shadow: var(--neon-glow);
+    transform: scale(1.03);
+    background: transparent;
+}
+
+.center {
+    padding: 40px;
+    text-align: center;
+}
+
+.profile {
     display: flex;
     align-items: center;
     gap: 30px;
-    text-align: left;
-    background: var(--card-bg);
-    border: 1px solid rgba(0, 242, 255, 0.15);
-    border-radius: 15px;
     padding: 30px;
+    text-align: left;
 }
 
-.card3 {
-    background: var(--card-bg);
-    border: 1px solid rgba(0, 242, 255, 0.15);
-    border-radius: 15px;
+.default {
     padding: 40px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
-}
-
-.card:hover{
-  border-color: var(--neon-cyan);
-  box-shadow: var(--neon-glow);
-  transform: scale(1.03);
-  background: transparrent;
-}
-
-.card2:hover {
-  border-color: var(--neon-cyan);
-  box-shadow: var(--neon-glow);
-  transform: scale(1.03);
-  background: transparrent;
-}
-
-.card3:hover {
-  border-color: var(--neon-cyan);
-  box-shadow: var(--neon-glow);
-  transform: scale(1.03);
-  background: transparrent;
 }
 
 .section-title {

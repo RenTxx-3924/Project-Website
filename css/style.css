@@ -148,7 +148,7 @@ nav {
 }
 
 .hero-sub {
-    font-family: 'Orbitron', sans-serif;
+    font-family: sans-serif;
     font-size: 0.85rem;
     margin-bottom: 20px;
     color: var(--text-main);

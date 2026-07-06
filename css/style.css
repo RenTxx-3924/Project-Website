@@ -148,14 +148,14 @@ nav {
 }
 
 .hero-sub {
-    font-family: sans-serif;
+    font-family: 'Orbitron', sans-serif;
     font-size: 0.85rem;
     margin-bottom: 20px;
     color: var(--text-main);
 }
 
 .hero-desc {
-    font-family: 'Orbitron', sans-serif;
+    font-family: sans-serif;
     color: var(--text-dim);
     font-size: 0.9rem;
     line-height: 1.7;

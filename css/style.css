@@ -193,6 +193,11 @@ nav {
     text-align: right;
 }
 
+.stat-text p {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 12px;
+}
+
 .icon{
     width: 24px;
     height: 24px;
